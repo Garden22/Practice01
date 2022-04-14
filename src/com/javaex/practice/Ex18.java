@@ -11,7 +11,7 @@ public class Ex18 {
 		System.out.print("화씨: ");
 		double f = sc.nextDouble();
 		
-		System.out.println("화씨 " + f + "의 섭씨온도는 " + (f-32) * 5 / 9 + "입니다.");
+		System.out.println("화씨 " + f + "의 섭씨온도는 " + ((f-32) * 5 / 9) + "입니다.");
 		
 	}
 

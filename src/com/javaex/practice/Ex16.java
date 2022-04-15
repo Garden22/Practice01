@@ -19,8 +19,10 @@ public class Ex16 {
 		System.out.println("받은돈: " + (double)taken);
 		System.out.println("상품가격: " + (double)price);
 		System.out.println("부가세: " + plus);
-		System.out.println("잔액: " + (taken - price - plus));
+		System.out.println("잔액: " + (taken - price));
 
+		sc.close();
+		
 	}
 
 }

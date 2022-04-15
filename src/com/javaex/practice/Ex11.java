@@ -13,6 +13,8 @@ public class Ex11 {
 		
 		System.out.println("10년동안 최대 저축액은 " + (money * 10 * 12) + " 원 입니다.");
 
+		sc.close();
+		
 	}
 
 }

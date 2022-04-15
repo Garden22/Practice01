@@ -19,6 +19,8 @@ public class Ex20 {
 
 		System.out.println("동전의 총합은 " + (500 * w500 + 100 * w100 + 50 * w50 + 10 * w10) + " 원입니다.");
 		
+		sc.close();
+		
 	}
 
 }

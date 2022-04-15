@@ -7,12 +7,14 @@ public class Ex13 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		final double Rate = 1230.95;
+		final double RATE = 1230.95;
 		
 		System.out.print("환전할 원화를 입력하세요: ");
 		int money = sc.nextInt();
 		
-		System.out.println("받으실 달러는 " + (money / Rate));
+		System.out.println("받으실 달러는 " + (money / RATE));
+		
+		sc.close();
 		
 	}
 

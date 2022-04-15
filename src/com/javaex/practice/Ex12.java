@@ -14,6 +14,8 @@ public class Ex12 {
 		
 		System.out.println("원의 넓이는 " + PI * r * r);		
 
+		sc.close();
+		
 	}
 
 }

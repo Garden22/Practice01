@@ -13,7 +13,9 @@ public class Ex17 {
 		int r = sc.nextInt();
 		
 		System.out.println("구의 부피는: " + (PI * 4 / 3 * r * r * r) + " 입니다.");
-
+		
+		sc.close();
+		
 	}
 
 }

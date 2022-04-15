@@ -13,6 +13,8 @@ public class Ex18 {
 		
 		System.out.println("화씨 " + f + "의 섭씨온도는 " + ((f-32) * 5 / 9) + "입니다.");
 		
+		sc.close();
+		
 	}
 
 }
